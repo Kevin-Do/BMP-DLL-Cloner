@@ -57,9 +57,8 @@
     <None Include="res\MFCApplication1.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\Lab_HQ_3DLLStatic\Debug\Lab_HQ_3DLLStatic.dll">
-      <Filter>Source Files</Filter>
-    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\..\Lab_HQ_3DLLStatic\x64\Debug\Lab_HQ_3DLLStatic.dll" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\MFCApplication1.ico">
@@ -73,8 +72,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\Lab_HQ_3DLLStatic\Debug\Lab_HQ_3DLLStatic.lib">
-      <Filter>Source Files</Filter>
-    </Library>
+    <Library Include="..\..\Lab_HQ_3DLLStatic\x64\Debug\Lab_HQ_3DLLStatic.lib" />
   </ItemGroup>
 </Project>

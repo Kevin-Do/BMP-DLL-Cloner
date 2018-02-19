@@ -120,6 +120,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>..\..\Lab_HQ_3DLLStatic\x64\Debug\Lab_HQ_3DLLStatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -207,7 +208,8 @@
     <ResourceCompile Include="MFCApplication1.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\Lab_HQ_3DLLStatic\Debug\Lab_HQ_3DLLStatic.dll" />
+    <None Include="..\..\Lab_HQ_3DLLStatic\x64\Debug\Lab_HQ_3DLLStatic.dll" />
+    <None Include="ClassDiagram.cd" />
     <None Include="res\MFCApplication1.rc2" />
   </ItemGroup>
   <ItemGroup>
@@ -216,7 +218,7 @@
     <Image Include="res\Toolbar256.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\Lab_HQ_3DLLStatic\Debug\Lab_HQ_3DLLStatic.lib" />
+    <Library Include="..\..\Lab_HQ_3DLLStatic\x64\Debug\Lab_HQ_3DLLStatic.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
